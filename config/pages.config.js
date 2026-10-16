@@ -1,0 +1,4 @@
+export const pages={"companies": "企业履历管理", "personnel": "人员履历管理", "courses": "必学课程管理", "newcomer": "新人必学课程库", "supervision": "施工作业监管", "rules": "必遵制度管理", "settings": "相关方类型设置", "company-score": "企业安全积分设置", "person-score": "人员安全积分设置", "basic": "基础设置", "control": "管控规则设置", "guide": "流程指引", "overview": "履历总览", "info": "企业信息", "projects": "项目管理", "records": "作业记录", "people": "人员管理", "signatures": "责任制签署", "regulations": "制度规程", "training": "安全培训", "emergency": "应急预案"};
+export const detailPages=["overview", "info", "projects", "records", "people", "signatures", "regulations", "training", "emergency"];
+export const settingPages=["settings", "company-score", "person-score", "basic", "control"];
+export const href=(key,id="")=>`./${key}.html${id?`?id=${encodeURIComponent(id)}`:""}`;

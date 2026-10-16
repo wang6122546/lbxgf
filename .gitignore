@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.zip
+# Local copies of the original system's compiled bundles are reference material.
+reference/source/
